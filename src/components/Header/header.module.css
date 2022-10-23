@@ -1,0 +1,32 @@
+.header {
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+  transition: height 0.2s ease-in-out !important;
+}
+
+.appName {
+  flex-shrink: 0;
+  margin-right: 2em;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.nav a {
+  margin: 0 .5em;
+}
+
+.authorisationButtonGroup {
+  margin-left: auto;
+}
+
+.drawerContent {
+  width: 200px;
+}

@@ -1,0 +1,100 @@
+.welcomePage {
+    width: 100%;
+    min-height: calc(100vh - 4em - 5em - 6em);
+    margin: 3em 0;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.commonInfo {
+    height: 26em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.commonInfoHead > div {
+    text-align: center;
+}
+
+.commonInfoHead > div > div {
+    text-align: center;
+    font-weight: 500;
+}
+
+.commonInfoDescription {
+    margin-top: 2em;
+    width: 50%;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.teamInfo {
+    width: 100%;
+    margin-bottom: 1.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.teamInfoHead {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.teamInfoContent {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.teamInfoContent > div {
+    /*font-size: 1.5em;*/
+    /*text-align: center;*/
+    /*margin: .5em;*/
+    /*border-radius: 4em;*/
+}
+
+.teamInfoContent > div > div {
+    padding: 0.8em;
+}
+
+.teamInfoContent > div p {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.taskInfo {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+}
+
+.avatar_1 {
+    background-color: #bdbdbd !important;
+}
+
+.avatar_2 {
+    background-color: #ff5722 !important;
+}
+
+.avatar_3 {
+    background-color: #673ab7 !important;
+}
